@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Генератор випадкових чисел</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #fce4ec, #e3f2fd);
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #37474f;
+        }
+        .card {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            width: 350px;
+            border-top: 5px solid #ff80ab;
+        }
+        h1 {
+            font-size: 22px;
+            color: #4a148c;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 14px;
+            color: #78909c;
+            margin-bottom: 25px;
+        }
+        button {
+            background: linear-gradient(135deg, #ff80ab, #80d8ff);
+            border: none;
+            color: white;
+            padding: 12px 25px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(255, 128, 171, 0.4);
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(128, 216, 255, 0.6);
+        }
+        #out {
+            margin-top: 25px;
+            font-size: 26px;
+            font-weight: bold;
+            color: #0277bd;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Генератор чисел</h1>
+        <p>Виконала: Лаврук Галина</p>
+        <button id="next">Next number</button>
+        <div id="out">-</div>
+    </div>
+    <script src="task1.js"></script>
+</body>
+</html>
